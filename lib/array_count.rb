@@ -1,8 +1,8 @@
 # Return the total number of strings in the provided array using the count enumerable
 
 def count_strings(array)
-  array.count do [num_of_strings]
-  
+  array.count do [element]
+  element
 end
 
 def count_empty_strings(array)
