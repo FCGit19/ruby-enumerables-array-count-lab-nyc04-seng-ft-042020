@@ -2,7 +2,7 @@
 
 def count_strings(array)
   array.count do |element|
-  element.is_string?
+  element.class == String
   end
 end
 
